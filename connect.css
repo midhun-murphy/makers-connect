@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.product-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 300px;
+    margin: 5px;
+}
+
+.product-image {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer; 
+}
+
+.price {
+    color: #008000;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #0044cc;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    text-decoration: none;
+}
+img{
+    height: 250px;
+    width: 250px;
+}
