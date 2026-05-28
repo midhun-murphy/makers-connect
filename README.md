@@ -120,16 +120,15 @@ makers-connect/
 ├── register.php
 └── README.md
 
-# Installation Guide
+---
+
+## Installation Guide
 
 ## Clone Repository
 
 ```bash
 git clone https://github.com/midhun-murphy/makers-connect.git
 ```
-
----
-
 ## Move Project to XAMPP
 
 Copy the project folder into:
