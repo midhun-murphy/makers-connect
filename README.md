@@ -10,8 +10,6 @@ The platform enables vendors to showcase handcrafted yarn and textile products w
 
 🔗 GitHub Repository: https://github.com/midhun-murphy/makers-connect
 
-🔗 Hosted Project: Add your deployment link here
-
 ---
 
 # Project Overview
@@ -122,3 +120,90 @@ makers-connect/
 ├── register.php
 └── README.md
 
+# Installation Guide
+
+## Clone Repository
+
+```bash
+git clone https://github.com/midhun-murphy/makers-connect.git
+```
+
+---
+
+## Move Project to XAMPP
+
+Copy the project folder into:
+
+```bash
+C:/xampp/htdocs/
+```
+
+---
+
+## Start Apache and MySQL
+
+Open XAMPP Control Panel and start:
+
+* Apache
+* MySQL
+
+---
+
+## Import Database
+
+Open browser and go to:
+
+```bash
+http://localhost/phpmyadmin
+```
+
+Create a new database:
+
+```bash
+makers_connect
+```
+
+Click **Import**
+
+Select your SQL file from:
+
+```bash
+database/makers_connect.sql
+```
+
+Click **Go**
+
+---
+
+## Run the Project
+
+Open browser and run:
+
+```bash
+http://localhost/makers-connect
+```
+
+---
+
+# Future Enhancements
+
+* Online payment gateway integration
+* Real-time order tracking
+* Vendor dashboard
+* Product reviews and ratings
+* AI-based product recommendations
+* Mobile responsive UI improvements
+* Admin analytics dashboard
+
+---
+
+# Learning Outcomes
+
+Through this project, we learned:
+
+* Full-stack web development
+* Authentication handling
+* Database integration
+* Ecommerce workflow design
+* UI/UX implementation
+* Cost estimation logic
